@@ -8,9 +8,5 @@ This setting is located at the user account page.
 ## Sending notifications
 You can send notifications manually:
 
-    cd /home/user/path_to_you_app
+    cd C:\Bitnami\redmine-3.3.0-1\apps\redmine\htdocs
     bundle exec rake redmine:reminder_plugin:send_notifications RAILS_ENV=production
-
-## License
-
-This plugin is licensed under the GPLv2 license.
